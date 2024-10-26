@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Concours littéraire La Cour de l'Imaginaire - appel à textes Fantasy, Fantastique et Science-Fiction">
+    <meta name="keywords" content="
+        appels à textes, concours écriture, manuscrit, science-fiction, fantasy,
+        fantastique, littérature imaginaire, raymond iss, la cour de l'imaginaire,
+        éditions rroyzz
+    ">
+    <meta name="author" content="Lucile Garrigoux">
+    <title>Concours de la Cour de l'Imaginaire</title>
+
+    <link href="static/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Lugrasimo&display=swap"
+        rel="stylesheet">
+
+    {% block stylesheet %}
+    <link rel="stylesheet" href="/static/base.css" />
+    {% endblock %}
+    <link rel=icon href="/static/images/castle.ico" type=image/ico>
+    </head>
+
+    <body>
+        {% include "./nav.html" %}
+
+        {% block content %} {% endblock %}
+
+        <footer>
+            <p>Illustration de fond : Hervé LEBLAN, Kerveig Castle, avec l'aimable autorisation de l'artiste.</p>
+        </footer>
+    
+    </body>
+
+</html>

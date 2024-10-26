@@ -59,3 +59,7 @@ Naviguez dans le dossier contenant le fichier `manage.py` si ce n'est pas le mê
 > python manage.py runserver
 
 Vous avez vaincu !
+
+## Crédit
+
+L'icône du site (le château) appartient à [freepik](https://www.freepik.com/).

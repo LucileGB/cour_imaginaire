@@ -1,0 +1,65 @@
+@import "./base.css"
+
+h1 {
+    font-family: 'Cabin', serif;
+    font-family: 'Lugrasimo', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: auto;
+
+    font-size: small;
+    font-style: italic;
+}
+
+@media (max-width: 949px) {
+    body {
+        display: flex;
+        flex-flow: column;
+        margin: 20px;
+    }
+    body :nth-child(1) { order: 2; }
+    body :nth-child(2) { order: 1; }
+    body :nth-child(3) { order: 3; }
+
+    .title-block p {
+        font-size: small;
+        margin-bottom: -10px
+    }
+    .index-content {
+        text-align: center;
+    }
+
+    .home-description {
+        font-style: italic;
+        margin-top: -10px;
+        padding: 5px;
+    }
+
+    .current-challenge {
+        margin-top: 30px;
+        font-style: normal;
+        font-size: large;
+    }
+
+    aside {
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        border: thick double #32a1ce;
+        border-radius: 5px;
+    }
+}
+
+
+body {
+    @media (min-width: 950px) {
+        background-color: paleturquoise;
+
+    }
+}
